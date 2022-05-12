@@ -1,0 +1,19 @@
+{
+    "name": "mr/app-salon",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controller\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "clmn386",
+            "email": "clmn386@gmail.com"
+        }
+    ],
+    "require": {}
+}
