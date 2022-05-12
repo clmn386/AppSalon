@@ -17,8 +17,7 @@ class Router
         $this->postRoutes[$url] = $fn;
     }
 
-    public function comprobarRutas()
-    {
+    public function comprobarRutas() {
         
         // Proteger Rutas...
         session_start();
@@ -36,8 +35,7 @@ class Router
         } else {
             $fn = $this->postRoutes[$currentUrl] ?? null;
         }
-
-
+        
         if ( $fn ) {
             // Call user fn va a llamar una función cuando no sabemos cual sera
             call_user_func($fn, $this); // This es para pasar argumentos
