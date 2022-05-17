@@ -25,3 +25,8 @@
         <input type="button" value="Inicio Sesion">
     </div>
 </form>
+
+<div class="acciones">
+    <a href="/crear">¿Aun no tienes una cuenta? Crea una.</a>
+    <a href="/olvide">¿Olvidades tu usuario?</a>
+</div>

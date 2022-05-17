@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.formulario {
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    label {
+        flex: 0 0 9rem; // esto ayuda a alinear correctamente el formulariio y dejarlo con un espacio entre el nombre y el campo 
+    }
+    input {
+        flex:1;
+        border:none;
+        padding: calc(v.$separacion /4);
+        border-radius: 1rem;
+    }
+}
