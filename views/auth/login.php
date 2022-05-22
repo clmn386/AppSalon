@@ -13,7 +13,7 @@
             <!-- el name nos va permitir leer el dato por el metodo post: $_POST['email']; -->
     </div>
     <div class="campo">
-        <label for="password">Password:</label>
+        <label for="password">Contraseña:</label>
             <input 
             type="password" 
             id="password"
@@ -27,6 +27,6 @@
 </form>
 
 <div class="acciones">
-    <a href="/crear">¿Aun no tienes una cuenta? Crea una.</a>
-    <a href="/olvide">¿Olvidades tu usuario?</a>
+    <a href="/crear">Crear Cuenta</a>
+    <a href="/olvide">Recuperar Contraseña</a>
 </div>

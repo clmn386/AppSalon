@@ -16,8 +16,11 @@ class LoginController
         echo "Desde Logout";
     }
 
-    public static function olvide() {
-        echo "olvide password";
+    public static function olvide(Router $router) {
+        
+        $router->render('auth/olvide', [
+
+        ]);
     }
 
     public static function recovery() {
@@ -27,7 +30,7 @@ class LoginController
     public static function crear(Router $router) {
 
         $router->render('auth/crear-cuenta', [
-            
+
         ]);
     }
 }
