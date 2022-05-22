@@ -22,7 +22,7 @@
             />
     </div>
     <div class="campo">
-        <input type="button" value="Inicio Sesion">
+        <input type="input" value="Inicio Sesion" class="boton">
     </div>
 </form>
 
